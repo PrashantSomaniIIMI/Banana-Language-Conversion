@@ -1,6 +1,6 @@
 var text_input = document.querySelector("#txt_input");
-console.log(text_input)
 var button_translate = document.querySelector("#btn_translate");
+var outputdiv = document.querySelector("#output")
 button_translate.addEventListener("click", function clickeventhandler(){
-    console.log("clicked") ; console.log("Input", text_input.value)
+    outputdiv.innerText =("mmffffp" + "I am Prashant")
 })
